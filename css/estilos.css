@@ -1,0 +1,180 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+ background-image: url(../img/fondo.png);
+ background-size: cover;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.experiencia {
+    font-size: 50px;
+    color: #FFD300;
+}
+
+.boton {
+    color: white;
+    background-color: #FFD300;
+    font-size: 50px;
+    width: 384px;
+    height: 125px;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: blue;
+    border-width: 2px;
+    padding: 25px 20px;
+}
+
+.boton:hover {
+    background-color: blue;
+    border-color: #FFD300;
+}
+
+.escudo {
+    align-items: center;
+}
+
+.mundoboca {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: #FFD300;
+    justify-content: space-around;
+    height: 90px;
+
+}
+
+.informacion {
+    color: white;
+    text-decoration: none;
+}
+
+.titulos {
+    color: white;
+    text-decoration: none;
+}
+
+.dts {
+    color: white;
+    text-decoration: none;
+}
+
+.plantelactual {
+    color: white;
+    text-decoration: none;
+}
+
+.idolos {
+    color: white;
+    text-decoration: none;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.logo {
+    height: 100%;
+}
+
+.parrafo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.padre {
+    display: grid;
+    margin: 80px;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: 
+    "subtitulo retrato"
+    "explicacion retrato";
+}
+
+.subtitulo {
+    grid-area: subtitulo;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.explicacion {
+    grid-area: explicacion;
+    text-align: left;
+    font-size: 30px;
+    width: 700px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10%;
+}
+
+.retrato {
+    grid-area: retrato;
+    justify-self: right;
+    width: 700px;
+    height: 400px;
+    margin-right: 10%;
+}
+
+.aclaracion {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.width-bg {
+    background-color: #FFD300;
+}
+
+.hero-section {
+    color: white;
+    height: 100vh;
+}
+
+.navbar {
+    height: 90px;
+    font-size: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: none;
+}
+
+.navbar-brand {
+    height: 90px;
+    font-size: 40px;
+}
