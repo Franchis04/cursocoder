@@ -99,7 +99,7 @@ body {
 }
 
 .logo {
-    height: 100%;
+    height: 90px;
 }
 
 .parrafo {
@@ -160,7 +160,7 @@ body {
 
 .hero-section {
     color: white;
-    height: 100vh;
+
 }
 
 .navbar {
@@ -177,4 +177,17 @@ body {
 .navbar-brand {
     height: 90px;
     font-size: 40px;
+}
+
+.container {
+    color: white;
+    font-size: 25px;
+}
+
+.bocamundo {
+    height: 50%;
+}
+
+.plantel {
+    height: 50%;
 }
