@@ -49,13 +49,13 @@ body {
 .mundoboca {
     text-align: center;
     font-size: 50px;
-    color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
 .content {
     display: flex;
+    color: blue;
     align-items: center;
     text-align: center;
     font-size: 40px;
@@ -66,27 +66,22 @@ body {
 }
 
 .informacion {
-    color: white;
     text-decoration: none;
 }
 
 .titulos {
-    color: white;
     text-decoration: none;
 }
 
 .dts {
-    color: white;
     text-decoration: none;
 }
 
 .plantelactual {
-    color: white;
     text-decoration: none;
 }
 
 .idolos {
-    color: white;
     text-decoration: none;
 }
 
@@ -160,23 +155,17 @@ body {
 
 .hero-section {
     color: white;
-
-}
-
-.navbar {
-    height: 90px;
-    font-size: 40px;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: white;
-    transition: none;
+    color: blue;
+    font-size: 40px;
 }
 
 .navbar-brand {
     height: 90px;
     font-size: 40px;
+    color: blue;
 }
 
 .container {
@@ -190,4 +179,16 @@ body {
 
 .plantel {
     height: 50%;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: blue;
+    transition: none;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: blue;
+    transition: none;
 }
