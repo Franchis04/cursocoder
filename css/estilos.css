@@ -191,3 +191,17 @@ body {
     color: blue;
     transition: none;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    padding-top: 10%;
+    background-color: #FFD300;
+    font-size: 30px;
+}
+
+.logofooter {
+    height: 50%;
+}
